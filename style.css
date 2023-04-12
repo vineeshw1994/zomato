@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 580px;
+}
+#bar{
+    display: none;
+}
+@media  screen and (max-width: 700px) {
+    .container-nav ul li a {
+      display: none;
+    }
+    #bar{
+        display:block;
+    }
+  }
+.image-container img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: rgb(235, 228, 228);
+    font-weight: 550;
+    margin-top: 18px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li {
+    padding: 10px;
+    margin-right: 33px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul li a{
+     font-size: 18px;
+     text-decoration: none;
+     color: rgb(195, 192, 192);
+}
+.header-body{
+    position: absolute;
+    margin-left: 325px;
+    margin-top: 60px;
+}
+.header-body h1{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 110px;
+}
+.header-body p{
+    margin-top: 0;
+    font-size: 38px;
+    font-weight: 500;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 70px;
+    margin-right: 70px;
+    word-spacing: 5px;
+}
+.secondline{
+    margin-top: 0;
+    font-size: 35px;
+    text-align: center;
+}
+
+/**** body section *******/
+.headings{
+    background-color: rgb(255,255,255);
+    margin-top: 28px;
+}
+.headings h2{
+    font-size: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    word-spacing: 4px;
+    font-weight: 100;
+    padding: 15px 0px;
+}
+.headings img{
+    height: 34px;
+    border-radius: 6px;
+    text-align: center;
+}
+.line1{
+    text-align: center;
+    font-size: 22px;
+    word-spacing: 3px;
+    color: rgb(90, 91, 92);
+    margin-bottom: 0;
+}
+.line2{
+    text-align: center;
+    font-size: 22px;
+    word-spacing: 1px;
+    color: rgb(90, 91, 92);
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+.line3{
+    text-align: center;
+    font-size: 22px;
+    word-spacing: 1px;
+    color: rgb(90, 91, 92);
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+/******* next rows ********/
+.container3{
+    margin: 0 80px;
+    background-color:rgb(255,255,255);
+    margin-top:70px;
+    max-width: 100%;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0px;
+}
+.b1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgb(223, 219, 219);
+    height: 60px;
+    width: 350px;
+    border-radius: 9px;
+    font-size: 22px;
+    color: rgb(80, 78, 78);
+    padding-left: 19px;
+}
+.arrow{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding-right: 28px;
+}
+
+/*******container4 countries section*****/
+.container4{
+    margin: 0 80px;
+    background-color:rgb(255,255,255);
+    margin-top:70px;
+    max-width: 100%;
+}
+.subheading{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgb(223, 219, 219);
+    height: 72px;
+    width: 350px;
+    border-radius: 9px;
+    font-size: 24px;
+    padding-left: 19px;
+}
+.flag{
+    height: 30px;
+    border-radius: 5px;
+    opacity: .7;
+}
+.countryname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-size: 23px;
+    padding-left: 7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*******footer ********/
+
+
+.containerfooter{
+    margin: 0 80px;
+    background-color:rgb(255,255,255);
+    margin-top:70px;
+    max-width: 100%;
+}
+.footerhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerheadlist{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+}
+.footertitle img{
+    height: 45px;
+    opacity: 0.9;
+}
+.p1{
+    display: flex;
+    justify-content: space-around;
+    height: 39px;
+    width: 100px;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 15px;
+    
+}
+.p1 img{
+    height: 18px;
+}
+.cname{
+    font-size: 20px;
+    color: rgb(68, 67, 67);
+    padding: 8px;
+}
+
+.p2{
+    display: flex;
+    justify-content: space-around;
+    height: 39px;
+    width: 110px;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.p2 img{
+    height: 18px;
+}
+.cname2{
+    font-size: 20px;
+}
+.container6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.container6 p{
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.fp3{
+    margin-top: 35px;
+}
+.container6 ul li{
+    list-style-type: none;
+    color: rgb(144, 143, 143);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.appimg1 img{
+    height: 40px;
+    width: 125px;
+}
+.appimg2 img{
+    height: 40px;
+    width: 125px;
+}
+.socialicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialicons li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.fa-brands{
+    height: 30px;
+    width: 15px;
+    border-radius: 40%;
+}
+.appimg{
+    display: block;
+    align-items: center;
+}
+.hr{
+    color: rgb(146, 144, 144);
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+.f1{
+    color: rgb(143, 141, 141);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 0px;
+}
+.f2{
+    color: rgb(143, 141, 141);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 0px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+
+
